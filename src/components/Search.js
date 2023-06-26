@@ -4,7 +4,7 @@ import { InstantSearch, useSearchBox, useHits, Snippet } from 'react-instantsear
 import styles from "../scss/Nav.module.scss";
 import Link from "next/link";
 
-const searchClient = algoliasearch('1NJ1JNTJJB', 'dc5fd38290faab86c2614608fa7d2a0c');
+const searchClient = algoliasearch('K7K86SB6D9', 'dc5fd38290faab86c2614608fa7d2a0c');
 
 function SearchBox({ query, refine }) {
     return (
