@@ -1,0 +1,4 @@
+# Redirects from what the browser requests to what we serve
+/info/*     /info/:id   200
+/articles/  /articles/:id   200
+/admin      /admin      200

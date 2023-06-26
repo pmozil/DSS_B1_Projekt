@@ -1,0 +1,18 @@
+.articleMenu {
+    .articleMenuLink {
+        margin: 1rem;
+        border: solid var(--menu-bg) 2px;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        display: inline-block;
+
+        transition: 200ms;
+
+        &:hover {
+            background-color: var(--menu-bg);
+        }
+        &.active {
+            background-color: var(--menu-bg);
+        }
+    }
+}

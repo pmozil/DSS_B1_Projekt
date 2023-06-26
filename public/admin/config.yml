@@ -1,0 +1,69 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: public/images
+public_folder: public
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}'
+    editor:
+      preview: true
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Publish Date'
+        name: 'date'
+        widget: 'datetime'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'Cover'
+        name: 'cover'
+        widget: 'image'
+        optional: 'true'
+      - label: "Manual File"
+        name: "File"
+        widget: "file"
+        default: "/public/files"
+        media_library:
+          config:
+            multiple: true
+  - name: 'info'
+    label: 'Info'
+    folder: 'content/info'
+    create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}'
+    editor:
+      preview: true
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Description'
+        name: 'description'
+        widget: 'string'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: "Manual File"
+        name: "File"
+        widget: "file"
+        default: "/public/files"
+        media_library:
+          config:
+            multiple: true

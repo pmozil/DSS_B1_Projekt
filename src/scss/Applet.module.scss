@@ -1,0 +1,174 @@
+@import "./common.scss";
+
+
+.Applet {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 4rem;
+    width: 100%;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    .link-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+        .cover {
+            width: 24rem;
+            height: 24rem;
+            background-size: cover;
+            border-radius: 1rem;
+            margin-bottom: 2rem;
+        }
+        .link {
+            font-family: sans-serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+            line-height: 1.5rem;
+            letter-spacing: 0.04em;
+            text-align: left;
+        }
+    }
+
+    // We also need to only show the first 6 on small screens
+    @include small-screen {
+        .link-container {
+            display: none;
+        }
+        .link-container:nth-child(-n+6) {
+            display: block;
+        }
+    }
+}
+
+.container {
+    width: auto;
+    position: relative;
+    color: var(--foreground) !important;
+    text-align: start;
+    margin: 1rem;
+
+    font-size: 1.2em;
+    @include small-screen {
+        font-size: 1.5em;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    .markdown {
+
+        margin-bottom: 3rem;
+
+        a {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            overflow: scroll;
+            display: inline-block;
+            &:only-child {
+                display: block;
+                width: 100%;
+                .image {
+                    margin: 0 auto;
+                }
+            }
+
+            .image {
+                &.closed {
+                    width: fit-content;
+                    display: block;
+
+                    img {
+                        max-width: 100%;
+                        box-shadow: 0 0 0.5em 0.5em var(--background);
+                        border-radius: 0.5rem;
+                        margin: 0.5rem;
+            
+                        transition: 200ms;
+            
+                        &:hover {
+                            transform: scale(1.02);
+                        }
+                    }
+                    
+                }
+
+                &.open {
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 5;
+                    background-color: rgba(0, 0, 0, 0.75);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    transition: 200ms;
+
+                    img {
+                        min-width: 50%;
+                        max-height: 100%;
+                        box-shadow: none;
+                        border-radius: 0;
+                        object-fit: contain;
+
+                        &:hover {
+                            transform: scale(1);
+                        }
+                    }
+                }
+            }
+        }
+
+        h1 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .table-container {
+            width: 100%;
+            overflow: scroll;
+        }
+
+        table {
+            width: 100%;
+            border: 1px solid var(--foreground);
+            border-collapse: collapse;
+
+            tr {
+                border: 1px solid var(--foreground);
+
+                th {
+                    border: 1px solid var(--foreground);
+                    background-color: var(--background);
+                    color: var(--foreground);
+                    padding: 0;
+                }
+
+                td {
+                    border: 1px solid var(--foreground);
+                    background-color: var(--background);
+                    color: var(--foreground);
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,141 @@
+@import "./common.scss";
+
+
+.drawer {
+    display: none;
+}
+.drawerlabel {
+    display: none;
+    font-size: 2rem;
+    margin: 1rem;
+}
+@include small-screen {
+    .drawerlabel {
+        display: block;
+    }
+    .navlink, .name, .search {
+        height: 0 !important;
+        transition: 200ms;
+        overflow: hidden;
+    }
+}
+.drawer:checked + * .navlink {
+    height: 2rem !important;
+}
+.drawer:checked + * .search {
+    height: 3rem !important;
+    overflow: visible;
+}
+.drawer:checked + * {
+    height: unset;
+}
+
+.titlebar {
+    display: flex;
+    flex-direction: row;
+    @include small-screen {flex-direction: column;}
+    align-items: center;
+    @include small-screen {align-items: flex-start;}
+    justify-content: flex-start;
+    padding: 2.5rem 1rem;
+    @include small-screen {padding: 0;}
+    height: 6rem;
+    @include small-screen {height: 3rem;}
+
+    .name {
+        font-family: sans-serif;
+        font-size: 2.5rem;
+        font-weight: 400;
+        line-height: 2.5rem;
+        letter-spacing: 0.04em;
+        margin-right: 2rem;
+    }
+
+    .search {
+        font-size: 2rem;
+        margin: 1.5rem 2rem;
+        margin-left: auto;
+        @include small-screen {margin-left: 0;}
+        align-self: flex-start;
+        height: 3rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        .open {
+            width: 100%;
+            transition: 200ms;
+        }
+        .closed {
+            width: 0;
+            transition: 200ms;
+            @include small-screen {width: 100%;}
+            overflow: hidden ;
+        }
+
+        .searchcontainer {
+            width: 100%;
+            .searchbar {
+                width: 100%;
+                input {
+                    background: transparent;
+                    outline: none;
+                    border: none;
+                    border-bottom: solid var(--menu-bg) 0.25rem;
+                    color: var(--foreground);
+                    width: 100%;
+
+                    &:focus {
+                        border: none;
+                        border-bottom: solid var(--highlight) 0.25rem;
+                    }
+                }
+            }
+
+            .results {
+                overflow: scroll;
+                max-height: 75vh;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                justify-content: flex-start;
+
+                .result {
+                    background: var(--background);
+                    border: solid var(--menu-bg) 1px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    text-align: left;
+                    z-index: 1;
+
+                    .title {
+                        color: var(--secondary);
+                        font-size: 1.5rem;
+                    }
+
+                    .content {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .navlink {
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        letter-spacing: 0.04em;
+        text-align: left;
+        padding: 0 1.5rem;
+        transition: 300ms all;
+    }
+
+    .navlink:hover {
+        transform: scale(1.1);
+        color: var(--highlight);
+    }
+}

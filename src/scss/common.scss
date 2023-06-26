@@ -1,0 +1,11 @@
+@mixin small-screen {
+    @media only screen and (max-width: 1000px) {
+        @content;
+    }
+}
+
+@font-face {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

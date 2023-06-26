@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.algolia.com/sitemap.xml
+# Algolia-Crawler-Verif: 7F14F645FBC2C970

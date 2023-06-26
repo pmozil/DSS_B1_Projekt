@@ -1,0 +1,54 @@
+{
+    "name": "DSS_b1",
+    "description": "DSS_b1",
+    "author": "pmozil",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@algolia/netlify-plugin-crawler": "^1.0.15",
+        "@svgr/webpack": "^6.3.1",
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "algoliasearch": "^4.14.2",
+        "gray-matter": "^4.0.3",
+        "js-yaml": "^4.1.0",
+        "next": "^12.1.6",
+        "package.json": "^0.0.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1",
+        "react-instantsearch-hooks-web": "^6.32.1",
+        "react-markdown": "^8.0.1",
+        "rehype-raw": "^6.1.1",
+        "remark-gfm": "^3.0.1",
+        "sass": "^1.52.2",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "next build && next export -o ./dist"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.41",
+        "eslint": "^8.17.0",
+        "typescript": "^4.7.3"
+    },
+    "main": "index.js",
+    "repository": "https://github.com/pmozil/ichtus-web",
+    "license": "MIT"
+}

@@ -1,0 +1,70 @@
+@import "./common.scss";
+
+.container {
+    margin-left: 17rem !important;
+    margin-right: 1rem;
+    width: auto;
+    height: 100vh;
+    position: relative;
+    @include small-screen {
+        margin-left: 4.5rem !important;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .error {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+
+        @include small-screen {
+            font-size: 1.5rem;
+            flex-direction: column;
+        }
+
+        .title {
+            border-right: 1px solid var(--menu-bg);
+            margin-right: 1.5em;
+            padding: 1em 1.5em 1em 0;
+            font-size: 2em;
+            font-weight: 700;
+            color: var(--foreground);
+
+            @include small-screen {
+                font-size: 3em;
+                padding: 0;
+                margin: 0;
+                border: none;
+            }
+        }
+
+        .text {
+            text-align: left;
+            line-height: 5em;
+            height: 5em;
+            vertical-align: middle;
+
+            .description {
+                font-size: 1.5em;
+                font-weight: normal;
+                line-height: inherit;
+                margin: 0;
+                padding: 0;
+                color: var(--foreground);
+                text-align: center;
+            }
+
+            @include small-screen {
+                border-top: 1px solid var(--menu-bg);
+                padding: 1em;
+                margin: 1em;
+                line-height: 3em;
+            }
+        }
+    }
+}
