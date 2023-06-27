@@ -46,7 +46,7 @@ export default function Topbar() {
                 <Bars />
                 <Link href="/">
                     <a href="/" className={styles.name} onClick={hide}>
-                        DSS B1 Gruppe Projekt
+                        Snapchen
                     </a>
                 </Link>
                 <span className={`${styles.search} ${searchOpen ? styles.open : styles.closed}`}>
