@@ -1,0 +1,83 @@
+@import "common.scss";
+
+.main {
+    margin-left: 16.5em;
+    @include small-screen {
+        margin-left: 6.5em;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    .title {
+        text-align: start;
+        margin: 2rem;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4em;
+        line-height: 85px;
+
+        color: var(--foreground);
+    }
+
+    .grid {
+        --min: 24rem;
+        --gap: 1rem;
+      
+        display: grid;
+        grid-gap: var(--gap);
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
+
+        .article {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            border-radius: 1rem;
+
+            padding: 1rem;
+            margin: 0.5rem;
+            background-color: rgba(var(--menu-bg), 0.9);
+
+            font-size: 1.5em;
+            @include small-screen {
+                font-size: 2em;
+            }
+
+            .title {
+                transition: 200ms;
+                color: var(--secondary);
+                margin: 0;
+                width: 100%;
+
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1em;
+                line-height: 2.5rem;
+                text-align: center;
+
+                padding: 0.5em 0;
+
+                @include small-screen {
+                    font-size: 2em;
+                }
+            }
+
+            .cover {
+                width: 100%;
+                border-radius: 1em;
+            }
+
+            .description {
+                color: var(--secondary);
+                padding: 1rem;
+                font-size: 0.75em;
+            }
+        }
+    }
+}

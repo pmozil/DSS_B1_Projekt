@@ -11,7 +11,7 @@ export default function App({ articles }) {
     return (
         <>
             <Head>
-                <title>DSS B1 Gruppe</title>
+                <title>Snapchen</title>
             </Head>
             <MainPage scrollRef={scroll} />
             <NewsPage articles={articles} scrollRef={scroll} />

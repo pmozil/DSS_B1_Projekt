@@ -1,9 +1,7 @@
 import * as React from "react";
 import styles from "../scss/main.module.scss";
-import Link from "next/link";
-import { RiArrowDownSLine } from "react-icons/ri";
 
-export default function MainPage({scrollRef}) {
+export default function MainPage({ scrollRef }) {
     return (
         <div className={styles.content}>
             <div className={styles.info}>

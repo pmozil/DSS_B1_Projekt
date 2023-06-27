@@ -8,7 +8,7 @@ export default function ArticlePage({ id, content, title }) {
       <>
         <Article id={id} content={content} />
         <Head>
-          <title>DSS B1 Gruppe - {title}</title>
+          <title>Snapchen - {title}</title>
         </Head>
       </>
     );
