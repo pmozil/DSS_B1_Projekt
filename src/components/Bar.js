@@ -46,7 +46,7 @@ export default function Topbar() {
                 <Bars />
                 <Link href="/">
                     <a href="/" className={styles.name} onClick={hide}>
-                        Snapchen
+                        Snäpchen
                     </a>
                 </Link>
                 <span className={`${styles.search} ${searchOpen ? styles.open : styles.closed}`}>

@@ -8,7 +8,7 @@ export default function ArticlePage({ id, content, title }) {
         <>
             <Article id={id} content={content} />
             <Head>
-                <title>Snapchen - Nachrichten - {title}</title>
+                <title>Snäpchen - Nachrichten - {title}</title>
             </Head>
         </>
     );

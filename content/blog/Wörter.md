@@ -6,6 +6,8 @@ cover: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.
 File: /public/files
 ---
 
+# Dieser Post hat populär verben von linguapedia
+
 
 | Infinitiv   | Переклад          | Präsens         | Präteritum           | Partizip II                         |
 | ----------- | ----------------- | --------------- | -------------------- | ----------------------------------- |
