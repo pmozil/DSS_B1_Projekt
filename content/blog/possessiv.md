@@ -2,7 +2,7 @@
 title: Possessiv
 date: 2023-06-30T17:02:46.314Z
 description: Erklärung und Grammatik zum Thema Zugehörigkeit(Possessiv)
-cover: https://github.com/pmozil/DSS_B1_Projekt/tree/main/content/blog/photo-1488190211105-8b0e65b80b4e
+cover: oli-dale-xjski_seizy-unsplash.jpg
 File: /public/files
 ---
 **Possessiv**
