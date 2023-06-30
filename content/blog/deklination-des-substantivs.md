@@ -2,7 +2,7 @@
 title: Deklination des Substantivs
 date: 2023-06-30T16:42:08.566Z
 description: Grammatik und Erklärung der Substantivdeklination
-cover: photo-1488190211105-8b0e65b80b4e.jpeg
+cover: https://github.com/pmozil/DSS_B1_Projekt/tree/main/content%2Fblog
 File: /public/files
 ---
 **Відмінювання іменників**
@@ -22,7 +22,7 @@ File: /public/files
    1. Ніяких закінчень не додаємо в будь-якому відмінку
 1. *Plural*
    1. Тут усе просто: у давальному відмінку (**Dativ**) додаємо закінчення ‘-en’ або залишаємо без змін, якщо іменник уже містить закінчення ‘-en’
-1. [*Ü](https://ru.wikipedia.org/wiki/%C3%9C)*bergangsgruppe*
+1. *Übergangsgruppe*
    1. У родовому відмінку (**Genitiv**) додаємо закінчення ‘-ens’
    2. У всіх решта відмінках крім називного (**Nominativ**) додаємо закінчення ‘-en’
    1. Проте сюди входять лише певні слова:
