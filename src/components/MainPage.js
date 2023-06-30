@@ -7,7 +7,7 @@ export default function MainPage({ scrollRef }) {
             <div className={styles.info}>
                 <div className={styles.container}>
                     <div className={styles.text}>
-                        Snäpchen
+                        Snäppchen
                     </div>
                     <span className={styles.separator} />
                     <div className={styles.text}>
