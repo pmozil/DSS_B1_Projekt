@@ -1,10 +1,12 @@
 ---
-title: Schwache Deklinazion
+title: Deklination eines Adjektivs
 date: 2023-06-30T20:48:30.132Z
 description: Die schwache deklinazion
 cover: https://picsum.photos/200/300
 File: /public/files
 ---
+**Deklination eines Adjektivs von Iryna Ivanets**
+
 **SCHWACHE DEKLINATION**
 
 - **DER, DIE, DAS**
