@@ -7,11 +7,11 @@ export default function MainPage({ scrollRef }) {
             <div className={styles.info}>
                 <div className={styles.container}>
                     <div className={styles.text}>
-                        Title here
+                        Snäpchen
                     </div>
                     <span className={styles.separator} />
                     <div className={styles.text}>
-                        More info...
+                        Das Projekt von DSS 2023 B1 Gruppe
                     </div>
                 </div>
             </div>

@@ -22,7 +22,7 @@ export default function NewsPage({ articles }) {
                 ))}
             </div>
             <Head>
-                <title>Snapchen - Nachrichten</title>
+                <title>Snäpchen - Nachrichten</title>
             </Head>
         </div>
     );
