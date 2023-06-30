@@ -5,7 +5,7 @@ description: "Erläuterung kontextueller Synonyme für „machen“ und „haben
 cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/eli-francis-_m-drbinfa4-unsplash.jpg
 File: /public/files
 ---
-**Контекстуальні синоніми до “machen“ aus Vitalik Radchuk**
+**Контекстуальні синоніми до “machen“ від Віталія Радчука**
 
 Саме слово “machen“ можна перекласти як: робити, створювати, виготовляти, виконувати, займатися і ще тисячі значень. Користуватися цим універсальним дієсловом можна та навіть потрібно. Проте це звучить досить одноманітно, а так як кожен хоче бути все більш схожим до Muttersprachler, то поповнюймо свій Vokabular новими словами. 
 
@@ -43,7 +43,7 @@ Zum Beispiel:
 
 *Wir bestanden gestern eine komplizierte Prüfung.*
 
-**Контекстуальні синоніми до “haben“ aus Vitalik Radchuk**
+**Контекстуальні синоніми до “haben“ від Віталія Радчука**
 
 “Haben” дуже багатозначне слово. Саме по собі воно означає мати, володіти, а вже у зв’язці з іншими словами міняє значення. Тож sehr geehrte zukünftige Muttersprachler ось вам ще один перелік з контекстуальними синонімами.
 
