@@ -5,7 +5,7 @@ description: "Erklärt den Unterschied zwischen Tun und Machen "
 cover: surface-e9ncsvbrvqo-unsplash.jpg
 File: /public/files
 ---
-**Tun und Machenvon Anastasia Variichuk **
+**Tun und Machenvon Anastasia Variichuk**
 
 У німецькій мові слова "tun" і "machen" використовуються для передачі дії або вчинку.
 
