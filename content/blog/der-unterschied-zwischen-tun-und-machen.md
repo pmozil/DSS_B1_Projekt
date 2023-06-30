@@ -2,7 +2,7 @@
 title: Der Unterschied zwischen Tun und Machen
 date: 2023-06-30T20:47:45.761Z
 description: "Erklärt den Unterschied zwischen Tun und Machen "
-cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/surface-e9ncsvbrvqo-unsplash.jpg
+cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/annie-spratt-_dank9gjvdy-unsplash.jpg
 File: /public/files
 ---
 **Tun und Machenvon Anastasia Variichuk**

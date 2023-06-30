@@ -2,7 +2,7 @@
 title: Temporale Präpositionen
 date: 2023-06-30T22:34:31.428Z
 description: Erklärung zeitlicher Präpositionen
-cover: aaron-burden-xg8iqmqmitm-unsplash.jpg
+cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/aaron-burden-xg8iqmqmitm-unsplash.jpg
 File: /public/files
 ---
 **Temporale Präpositionen von Ivanna Rohylya**
