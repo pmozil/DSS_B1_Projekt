@@ -2,7 +2,7 @@
 title: Kontextuelle Synonyme für „machen“ und „haben“
 date: 2023-06-30T20:35:37.393Z
 description: Erläuterung kontextueller Synonyme für „machen“ und „haben“ aus Vitalik Radchuk
-cover: eli-francis-_m-drbinfa4-unsplash.jpg
+cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/eli-francis-_m-drbinfa4-unsplash.jpg
 File: /public/files
 ---
 **Контекстуальні синоніми до “machen“**
