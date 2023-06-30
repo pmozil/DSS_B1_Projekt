@@ -2,7 +2,7 @@
 title: Konjugation von Verben im Präsens
 date: 2023-06-30T21:28:50.238Z
 description: Konjugation von Verben im Präsens von Sviatoslav Onyshkevych
-cover: unseen-studio-s9cc2skysjm-unsplash.jpg
+cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/unseen-studio-s9cc2skysjm-unsplash.jpg
 File: /public/files
 ---
 
