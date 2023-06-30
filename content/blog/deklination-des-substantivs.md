@@ -2,7 +2,7 @@
 title: Deklination des Substantivs
 date: 2023-06-30T16:42:08.566Z
 description: Grammatik und Erklärung der Substantivdeklination
-cover: https://github.com/pmozil/DSS_B1_Projekt/tree/main/content%2Fblog
+cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/photo-1488190211105-8b0e65b80b4e.jpeg
 File: /public/files
 ---
 **Відмінювання іменників**
