@@ -1,7 +1,7 @@
 ---
 title: Satzreihe und Satzgefüge
 date: 2023-06-30T17:17:42.258Z
-description: Erklärung und Grammatik zu Satzreihe und Satzgefüge
+description: Erklärung und Grammatik zu Satzreihe und Satzgefüge von Taras Duma
 cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/annie-spratt-_dank9gjvdy-unsplash.jpg
 File: /public/files
 ---
