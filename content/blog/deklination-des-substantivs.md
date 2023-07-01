@@ -5,7 +5,7 @@ description: Grammatik und Erklärung der Substantivdeklination
 cover: https://raw.githubusercontent.com/pmozil/DSS_B1_Projekt/main/public/images/photo-1488190211105-8b0e65b80b4e.jpeg
 File: /public/files
 ---
-**Відмінювання іменників**
+**Відмінювання іменників від Дмитра Хамули**
 
 1. *Die starke Deklination (сильна група)*
    1. Увесь середній рід ОКРІМ das Herz + більшість чоловічого
