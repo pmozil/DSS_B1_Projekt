@@ -15,7 +15,7 @@ Hallo! Diese Seite enthält Informationen über unser Team.
 - Duma Taras
 - Honcharova Emilia
 - Ivanets Iryna
-- Ivanka (Sedlantschyk Nazar)
+- Ivanka Sedlantschyk
 - Mariia Ivantschenko
 - Mazur Valentyna
 - Mozil Petro
@@ -23,7 +23,7 @@ Hallo! Diese Seite enthält Informationen über unser Team.
 - Radstchuk Vitalij
 - Rohulia Ivanna
 - Sviatoslav Onyskevych
-
+- Mariia-Veronika
 
 # Die Motivation für die Website
 Wir wollten die Informationen, die wir von der Schule erhielten, in einer einzigen Quelle  und bequem zusammenfassen.
