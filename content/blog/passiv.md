@@ -5,7 +5,9 @@ description: passiv
 cover: https://picsum.photos/200/300
 File: /public/files
 ---
-** Text by Valentyna Mazur **
+*Text by Valentyna Mazur*
+
+
 Deutsch für die Webseite
 Das Passiv
 Пасивний стан, як і в українській мові, вказує на те, що підмет (що?)  не виконує самостійно дію, зазначену в реченні, а відчуває цю дію на собі, тобто є об’єктом цієї ж дії.
