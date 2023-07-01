@@ -23,7 +23,7 @@ Hallo! Diese Seite enthält Informationen über unser Team.
 - Radstchuk Vitalij
 - Rohulia Ivanna
 - Sviatoslav Onyskevych
-- Mariia-Veronika
+- Mariia-Veronika Filatova
 
 # Die Motivation für die Website
 Wir wollten die Informationen, die wir von der Schule erhielten, in einer einzigen Quelle  und bequem zusammenfassen.
