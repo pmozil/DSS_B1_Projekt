@@ -1,5 +1,5 @@
 ---
-title: Deklination eines Adjektivs
+title: Deklination die Adjektive
 date: 2023-06-30T20:48:30.132Z
 description: Die schwache deklinazion
 cover: https://picsum.photos/200/300
