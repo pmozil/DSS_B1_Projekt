@@ -2,7 +2,7 @@
 title: Lokale Präpositionen
 date: 2023-07-01T06:07:21.887Z
 description: Lokale Präpositionen Erklärung
-cover: trent-erwin-uga3xvi3ska-unsplash.jpg
+cover: https://picsum.photos/200/300
 File: /public/files
 ---
 **Lokale Präpositionen von Maria-Veronika**
