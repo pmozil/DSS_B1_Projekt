@@ -2,7 +2,7 @@
 title: Konjunktiv II
 date: 2023-07-01T06:05:47.295Z
 description: "Konjunktiv II Erklärung "
-cover: kimberly-farmer-luaakcuanvi-unsplash.jpg
+cover: https://picsum.photos/200/300
 File: /public/files
 ---
 
